@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/etchdock",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Etch filesystem dock paths across POSIX and Windows conventions.",
+  "bin": {
+    "etchdock": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/etchdock.git"
+  },
+  "homepage": "https://theworker02.github.io/etchdock/",
+  "keywords": [
+    "etch",
+    "dock",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
